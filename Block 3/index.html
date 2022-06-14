@@ -1,0 +1,98 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Привет SASS(SCSS)!</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> -->
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<header class="header container-1">
+			<a href="#" class="header__logo">FOOD</a>
+			<nav class="header__menu">
+				<ul class="menu__list">
+						<li class="menu__item">About</li>
+						<li class="menu__item">Menu</li>
+						<li class="menu__item">Blog</li>
+						<li class="menu__item">Contact</li>
+				</ul>
+			</nav>
+			<div class="header__button"><a href="#">CONTACT US</a></div>
+		</header>
+		<main class="page">
+					<img src="../Block 3/img/Oval.png" alt="Oval" class="oval">
+					<img src="../Block 3/img/Rectanglebackground.png" alt="Rectanglebackground" class="rectanglebackground">
+					
+					<div class="page__welcome container-2">
+						<h1 class="welcome__title">Food Market</h1>
+						<h2 class="welcome__title-big">Welcome to food market</h2>
+						<span class="welcome__title-text">The sky was cloudless and of a deep dark blue. The spectacle before us was indeed sublime.</span>
+						<div class="welcome__seemenu">
+							<a href="#" class="seemenu__button">SEE MENU</a></div>
+					</div>
+					<div class="page__photo-welcome container-3">
+						<div class="photo-welcome__manyphotos">
+							<!-- <img src="../Block 3/img/Rectangle.png" alt="border" class="manyphotos__rectangle"> -->
+							<img src="../Block 3/img/smile.png" alt="smile" class="manyphotos__smile">
+							<!-- <img src="../Block 3/img/waves.png" alt="waves" 
+							class="manyphotos__waves">
+							<img src="../Block 3/img/foodtwospoons.png" alt="foodtwospoons" 
+							class="manyphotos__foodtwospoons"> -->
+						</div>
+					</div>
+					<div class="page__features">
+						<div class="features__text container-4">
+							<h3 class="features__title-small">Best Food</h3>
+							<h2 class="features__title-big">Features</h2>
+							<span class="features__title-text">The sky was cloudless and of a deep dark blue. The spectacle before <br> us was indeed sublime.</span>
+						</div>
+						<div class="features__column container-5">
+							<div class="features__freshfood">
+								<h3 class="freshfood__title-apple">Fresh Food</h3>
+								<span class="freshfood__text">As I went on, still gaining <br> velocity, the palpitation of <br> night and day merged.</span>
+								<a href="#" class="freshfood__border">
+									<img src="../Block 3/img/borderwhite.png" alt="border">
+								</a>
+							</div>
+							<div class="features__freshfood twocolumn">
+								<h3 class="freshfood__title-bike">Delivery</h3>
+								<span class="freshfood__text">Went on, still gaining <br> velocity, the palpitation of <br> night and day merged.</span>
+								<a href="#" class="freshfood__border">
+									<img src="../Block 3/img/borderbike.png" alt="border" class="borderbike">
+								</a>
+							</div>
+							<div class="features__freshfood">
+								<h3 class="freshfood__title-cook">Delivery</h3>
+								<span class="freshfood__text">Still gaining velocity, the <br> went palpitation of night <br> and day merged.</span>
+								<a href="#" class="freshfood__border">
+									<img src="../Block 3/img/bordercook.png" alt="border" class="bordercook">
+								</a>
+							</div>
+						</div>
+
+					</div>
+					<div class="page__biggestfood container-6">
+						<div class="biggestfood__image">
+							<img src="../Block 3/img/biggestfood.png" alt="food">
+						</div>
+						<div class="biggestfood__text">
+							<h3 class="biggestfood__title-small">About Us</h3>
+							<h2 class="biggestfood__title-big">Most Biggest Food Market</h2>
+							<div class="biggestfood__textblack"><span>The sky was cloudless and of a deep <br></span></div>
+							<div  class="biggestfood__textgrey"><span>A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music. <br></span></div>
+							<a href="#" class="biggestfood__button">About Us</a>
+						</div>
+					</div>
+			</div>
+		</main>
+	</body>
+</html>

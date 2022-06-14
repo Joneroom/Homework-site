@@ -1,0 +1,443 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+.oval {
+  z-index: -1;
+  position: absolute;
+  width: 891px;
+  height: 891px;
+  left: 821px;
+  top: -318px;
+}
+
+.rectanglebackground {
+  z-index: -1;
+  position: absolute;
+  width: 1305px;
+  height: 592px;
+  left: 0px;
+  top: 1872px;
+}
+
+.container-1 {
+  margin-left: 135px;
+  max-width: 1180px;
+}
+
+.container-2 {
+  max-width: 470px;
+  max-height: 392px;
+  margin: 264px 835px 224px 135px;
+}
+
+.container-3 {
+  max-width: 800px;
+  max-height: 544px;
+  margin: 176px 135px 160px 735px;
+}
+
+.container-4 {
+  margin: 184px 485px 66px 485px;
+  text-align: center;
+  max-width: 470px;
+}
+
+.container-5 {
+  max-width: 874px;
+  max-height: 464px;
+  margin: 0px 283px 283px 192px;
+}
+
+.container-6 {
+  max-width: 1070px;
+  max-height: 672px;
+  margin: 0px 235px 143px 135px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.header__logo {
+  margin-top: 16px;
+  width: 116px;
+  height: 48px;
+  left: 135px;
+  top: 16px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #333333;
+}
+.header__menu {
+  margin-top: 25px;
+  margin-left: 59px;
+}
+.header__button {
+  margin-top: 16px;
+  margin-left: 526px;
+  padding: 16px 26.8px 14px 25.2px;
+  font-family: "Elsie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #5DC4B8;
+  border: 1px solid rgba(93, 196, 184, 0.500198);
+  border-radius: 12px;
+}
+
+.menu__logo {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #333333;
+  width: 1170px;
+  height: 48px;
+  margin: 16px 135px 816px 135px;
+}
+.menu__list {
+  width: 315px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  color: #333333;
+}
+.menu__item {
+  margin-right: 75px;
+}
+
+.page__biggestfood {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.welcome__title {
+  padding-bottom: 26px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+  color: #EF633E;
+}
+.welcome__title-big {
+  padding-bottom: 22px;
+  font-family: "Elsie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 80px;
+  /* or 111% */
+  color: #333333;
+}
+.welcome__title-text {
+  padding-bottom: 36px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+  color: #333333;
+}
+.welcome__seemenu {
+  padding-top: 36px;
+  font-family: "Elsie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.seemenu__button {
+  font-family: "Elsie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 16px 30.2px 14px 30.8px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#96E4DD), to(#5DC4B8));
+  background: -o-linear-gradient(top, #96E4DD 0%, #5DC4B8 100%);
+  background: linear-gradient(180deg, #96E4DD 0%, #5DC4B8 100%);
+  border-radius: 12px;
+}
+
+.photo-welcome__manyphotos {
+  margin: -630px 0px 0px 154px;
+}
+
+.manyphotos__smilegirl {
+  margin: -109px 0px 0px -600px;
+}
+.manyphotos__waves {
+  width: 202px;
+  height: 96px;
+  margin: -30px 0px 0px -330px;
+}
+.manyphotos__foodtwospoons {
+  margin: -340px 0px 0px 300px;
+}
+
+.features__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.features__text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  text-align: center;
+  color: #333333;
+}
+.features__title-small {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+  text-align: center;
+  color: #EF633E;
+}
+.features__title-big {
+  font-family: "Elsie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 64px;
+  /* identical to box height, or 114% */
+  text-align: center;
+  color: #333333;
+}
+.freshfood__title-apple {
+  position: absolute;
+  padding-top: 200px;
+  padding-left: 120px;
+  font-family: "Elsie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #333333;
+}
+.freshfood__title-bike {
+  position: absolute;
+  padding-top: 200px;
+  padding-left: 140px;
+  font-family: "Elsie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #333333;
+}
+.freshfood__title-bike__text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  text-align: center;
+  color: rgba(51, 51, 51, 0.5);
+}
+.freshfood__title-cook {
+  position: absolute;
+  padding-top: 200px;
+  padding-left: 140px;
+  font-family: "Elsie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #333333;
+}
+.freshfood__text {
+  position: absolute;
+  padding-top: 250px;
+  padding-left: 100px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  text-align: center;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.twocolumn {
+  padding-top: 64px;
+}
+
+.biggestfood__text {
+  margin-left: 130px;
+}
+.biggestfood__title-small {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+  color: #EF633E;
+}
+.biggestfood__title-big {
+  margin-bottom: 25px;
+  margin-top: 23px;
+  font-family: "Elsie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 64px;
+  /* or 114% */
+  color: #333333;
+}
+.biggestfood__textblack {
+  margin-bottom: 18px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+  color: #333333;
+}
+.biggestfood__textgrey {
+  margin-bottom: 32px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  color: rgba(51, 51, 51, 0.5);
+}
+.biggestfood__button {
+  padding: 16px 35.8px 14px 35.2px;
+  font-family: "Elsie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #5DC4B8;
+  border: 1px solid rgba(93, 196, 184, 0.500198);
+  border-radius: 12px;
+}
